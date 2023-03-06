@@ -250,10 +250,12 @@
 .newsNnotice {
   display: flex;
   margin: 80px 0;
+  
 }
 
 .newsNnotice-main {
   display: flex !important;
+  box-shadow: 10px 0px 19px 6px rgba(179, 179, 179, 0.75);
 }
 
 .news-title h3 {
@@ -268,6 +270,7 @@
   justify-content: space-evenly;
   display: flex;
   gap: 30px;
+
 }
 
 .news-card {
