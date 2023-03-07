@@ -1,8 +1,10 @@
-import React from 'react'
+import * as React from 'react'
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Button, TextField } from '@mui/material';
-
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+import '../../stylesheets/Library/Library.css'
 
 const Library = () => {
   return (
@@ -31,9 +33,30 @@ const Library = () => {
             </div> */}
             <div class="col-lg-6">
               <Button variant="contained" fullWidth className='mt-5'>Login</Button>
-              <TextField fullWidth id="filled-basic" label="Email or Username" variant="filled" />
-              <TextField fullWidth id="filled-basic" label="Password" variant="filled" />
-              <a href="signup.com"></a>
+              <TextField
+                fullWidth
+                id="filled-basic"
+                label="Email or Username"
+                variant="filled"
+                margin='normal'
+              />
+              <TextField
+                fullWidth
+                id="filled-basic"
+                label="Password"
+                variant="filled"
+                margin='normal'
+              />
+              <div className='contact-password text-center'>
+                <a href="" className='mx-4'>Forgot Password?</a>
+                  <FormControlLabel  className='mx-4' control={<Checkbox defaultChecked />} label="Remind me later"  />
+              </div>
+              <a >
+              <Button variant="outlined" fullWidth margin='normal'>Sign Up</Button>
+              </a>
+              <div className='signup-link my-3 text-center'>
+              <p >Don't have an account? <a href="">Sign Up</a></p>
+              </div>
             </div>
           </div>
         </div>
