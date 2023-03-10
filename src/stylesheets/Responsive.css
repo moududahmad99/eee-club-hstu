@@ -1,5 +1,6 @@
 /* start top section */
 
+
 @media (max-width: 1176px) {
   .top-text > h1 {
     font-size: calc(1vw + 0.7rem);
@@ -72,11 +73,13 @@
 /* Extra Small Area Start*/
 @media (max-width: 576.98px) {
   .nav-item {
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    letter-spacing: 1.1px !important;
+    margin-left: 5px;
   }
   .nav-link {
     padding: 10px 0;
-    font-size: 16px !important;
+    font-size: 13px !important;
     transition: .5s !important;
     -webkit-transition: .5s !important;
     -moz-transition: .5s !important;
@@ -106,7 +109,7 @@
 
   .navbarNav ul li:hover > ul {
     display: block;
-    margin-left: 25%;
+    /* margin-left: 25%; */
   }
 
   .navbar-toggler {
@@ -144,13 +147,20 @@
 
 /* Small Area Start */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .about-desc h3 {
+    font-size: 15px;
+  }
   .nav-item {
     margin-top: 15px;
   }
 
+  .about-img img {
+    margin-top: 60px;
+  }
+
   .nav-link {
     padding: 10px 0;
-    font-size: 16px !important;
+    font-size: 13px !important;
   }
 
   .nav-link::after {
@@ -217,6 +227,10 @@
 
 /* Medium Area Start */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .about-desc h3 {
+    font-size: 15px;
+  }
+
   .nav-item {
     margin-top: 15px;
   }
@@ -285,6 +299,10 @@
 
 /* Large Area Start */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .about-desc h3 {
+    font-size: 17px;
+  }
+
   /* Navbar Area Start */
   .nav-link {
     /* margin: 0 0.9vw; */
@@ -296,7 +314,7 @@
     margin: 0px;
     font-size: 14px;
   }
-  
+
   #collasible-nav-dropdown {
     color: rgb(255, 255, 255);
     font-size: 1.2vw;
@@ -326,6 +344,14 @@
     padding: 0 10%;
 }
 }
+
+/* -------------------------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1920.98px) {
+  nav .container, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 0px !important;
+  }
+}
+/* -------------------------------------------------------------------------- */
 @media (max-width: 440px) {
   .banner {
     height: 200px;
@@ -354,8 +380,9 @@
     font-weight: 700;
   }
   .about-desc p {
-    margin: 30px 0;
-    line-height: 26px;
+    margin: 26px 0;
+    font-size: 16px;
+    line-height: 26px !important;
     letter-spacing: 0;
   }
 }
@@ -425,6 +452,7 @@
   }
   .about-img img {
     height: 35vw;
+    margin-top: 60px;
   }
   .about-card {
     padding: 10px 5px;
@@ -436,14 +464,15 @@
   .about-desc h3 {
     font-size: 3vw;
     font-weight: 600;
-    /* line-height: vw; */
     color: chocolate;
   }
   .about-desc p {
-    font-size: 1.6vw;
+    font-size: 13px !important;
     margin: 5px 0;
-    font-weight: 600;
     letter-spacing: 1;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+
   }
 
   .about-btn {
@@ -496,6 +525,7 @@
 }
 
 @media (max-width: 575.98px) {
+
   #message {
     padding: 10px 0;
   }
@@ -981,6 +1011,13 @@
 
 /* Small Area Start */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-item {
+    /* margin-top: 15px; */
+    margin-left: 5px;
+    letter-spacing: 1.1px !important;
+
+  }
+
   /* Notice Area Start */
   .newsNnotice-main {
     display: block;
@@ -1076,6 +1113,14 @@
 /* Medium Area Start */
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Notice Area Start */
+  .about-img img {
+    margin-top: 60px;
+  }
+  .nav-item {
+    /* margin-top: 15px; */
+    margin-left: 5px;
+    letter-spacing: 1.1px !important;
+  }
   .newsNnotice-main {
     display: block;
   }
@@ -1177,6 +1222,9 @@
 
 /* Large Area Start */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .about-img img {
+    margin-top: 40px;
+  }
   .notice-title h3 {
     font-size: 25px;
   }

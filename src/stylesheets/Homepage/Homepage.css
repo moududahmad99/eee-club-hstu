@@ -205,6 +205,9 @@
   
   
   /* Navbar Area Start */
+
+  
+
   .navbar {
     background-color: #27292b;
   }
@@ -216,7 +219,8 @@
     font-family: "Montserrat";
     position: relative;
     margin: 0 0.4vw;
-    font-size: 1vw;
+    /* font-size: 1vw; */
+    font-size: 14px !important;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
