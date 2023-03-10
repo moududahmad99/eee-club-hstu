@@ -92,53 +92,59 @@ const About = () => {
       <div className="both-message">
         <div className="container">
           <div className="both-main">
-            <div className="both-part1">
-              <div className="message-img ">
-                <a href="#"><img src="images/gallery-4.jpg" alt="Muhammad Ruhul Amin" /></a>
-              </div>
-              <div className="message-text">
-                <h3>Message from Vice president</h3>
+            <div className='row'>
+              <div className="col-lg-6">
+                <div className="both-part1">
+                  <div className="message-img">
+                    <a href="#"><img src="images/gallery-4.jpg" alt="Muhammad Ruhul Amin" /></a>
+                  </div>
+                  <div className="message-text">
+                    <h3>Message from Vice president</h3>
 
-                <h4>Muhammad Ruhul Amin</h4>
-                <h6>Department of EEE, HSTU</h6>
-                <p>Department of Electrical and Electronic Engineering (EEE) is one of the most demanding
-                  and
-                  leading
-                  departments ithe national as
-                  expert consultants. We always try to maintain a congenial environment among students and
-                  teachers in our
-                  department. The department of EEE...
-                </p>
-                <div className="message-btn">
-                  {/* <a href="#" type="button" className="btn btn-primary">More
+                    <h4>Muhammad Ruhul Amin</h4>
+                    <h6>Department of EEE, HSTU</h6>
+                    <p>Department of Electrical and Electronic Engineering (EEE) is one of the most demanding
+                      and
+                      leading
+                      departments ithe national as
+                      expert consultants. We always try to maintain a congenial environment among students and
+                      teachers in our
+                      department. The department of EEE...
+                    </p>
+                    <div className="message-btn">
+                      {/* <a href="#" type="button" className="btn btn-primary">More
                     <i className="fa-solid fa-arrow-right"></i>
                   </a> */}
-                  <Button variant="contained">See More</Button>
+                      <Button variant="contained">See More</Button>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="both-part2">
-              <div className="message-img">
-                <a href="#"><img src="images/gallery-4.jpg" alt="Sourav Ahmed" /></a>
-              </div>
-              <div className="message-text">
-                <h6>Message from General Sectretary</h6>
+              <div className="col-lg-6">
+                <div className="both-part2">
+                  <div className="message-img">
+                    <a href="#"><img src="images/gallery-4.jpg" alt="Sourav Ahmed" /></a>
+                  </div>
+                  <div className="message-text">
+                    <h6>Message from General Sectretary</h6>
 
-                <h4>Sourav Ahmed</h4>
-                <h6>Department of EEE, HSTU</h6>
-                <p>Department of Electrical and Electronic Engineering (EEE) is one of the most demanding
-                  and
-                  leading
-                  departments ithe national as
-                  expert consultants. We always try to maintain a congenial environment among students and
-                  teachers in our
-                  department. The department of EEE...
-                </p>
-                <div className="message-btn">
-                  {/* <a href="#" type="button" className="btn btn-primary"> More
+                    <h4>Sourav Ahmed</h4>
+                    <h6>Department of EEE, HSTU</h6>
+                    <p>Department of Electrical and Electronic Engineering (EEE) is one of the most demanding
+                      and
+                      leading
+                      departments ithe national as
+                      expert consultants. We always try to maintain a congenial environment among students and
+                      teachers in our
+                      department. The department of EEE...
+                    </p>
+                    <div className="message-btn">
+                      {/* <a href="#" type="button" className="btn btn-primary"> More
                     <i className="fa-solid fa-arrow-right"></i>
                   </a> */}
-                  <Button variant="contained">See More</Button>
+                      <Button variant="contained">See More</Button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -426,8 +432,8 @@ const About = () => {
       {/* <!-- Min-Footer Section Start --> */}
       <div class="footer-inner">
         {/* <!-- <h3>Copyright © 2023. All rights reserved by <a href="#"><span> EEE CLUB OF HSTU</span></a></h3> --> */}
-        <h3> 
-          <img src="images/16logo.png" alt="logo" height="120px" width="120px"/>
+        <h3>
+          <img src="images/16logo.png" alt="logo" height="120px" width="120px" />
           POWERED BY © NOIKOSSHO'16
         </h3>
       </div>

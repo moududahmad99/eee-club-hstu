@@ -539,7 +539,7 @@
     box-shadow: 0px 0px 5px 6px rgba(179, 179, 179, 0.75);
   }
   .message-text p {
-    font-size: 1.8vw;
+    /* font-size: 1.8vw; */
 
     line-height: 10px;
     letter-spacing: 0.2px;
@@ -617,7 +617,6 @@
   }
   .message-main {
     margin: 0;
-
     padding: 5px;
     border-radius: 6px;
     flex-wrap: wrap;
@@ -625,27 +624,34 @@
     box-shadow: 0px 0px 5px 6px rgba(179, 179, 179, 0.75);
   }
   .message-text p {
-    font-size: 1.8vw;
-
     line-height: 10px;
+    font-size: 12px !important;
     letter-spacing: 0.2px;
-    font-weight: 550;
+    font-weight: 400;
   }
   .message-btn {
     margin-top: 0px;
     text-align: right;
   }
   .message-btn a {
-    font-size: 6px;
     padding: 3px;
   }
 
-  .message-text h3 {
-    margin: 0;
-    padding: 2px;
+  .message-text {
+    width: 100% !important;
+    color: #000;
   }
-
+  
+  .message-text h3 {
+    padding: 2px;
+    font-size: 14px !important;
+    color: #000 !important;
+    margin-top: 8px;
+  }
+  
   .message-text h6 {
+    font-size: 16px !important;
+    color: #7c7a7a !important;
     margin: 0;
     padding-left: 2px;
   }
@@ -653,11 +659,8 @@
   .message-text h4 {
     margin: 0;
     padding: 2px;
-  }
+    font-size: 16px !important;
 
-  .message-text h5 {
-    margin: 0;
-    padding: 2px;
   }
 }
 
@@ -666,11 +669,11 @@
 /*Advisors section  starts*/
 
 @media only screen and (min-width: 501px) and (max-width: 1176px) {
+  
   .advisor-text {
     line-height: 2vw;
     align-items: center;
     padding-left: 2vw;
-
     font-weight: 600;
   }
   .advisor-items {
@@ -801,7 +804,7 @@
   }
 
   .gallery-title h3 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   /* Gallery Area End */
@@ -1011,6 +1014,31 @@
 
 /* Small Area Start */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .message-text {
+    width: 100% !important;
+    color: #000;
+  }
+  
+  .message-text h3 {
+    padding: 2px;
+    font-size: 14px !important;
+    color: #000 !important;
+    margin-top: 8px;
+  }
+  
+  .message-text h6 {
+    font-size: 16px !important;
+    color: #7c7a7a !important;
+    margin: 0;
+    padding-left: 2px;
+  }
+
+  .message-text h4 {
+    margin: 0;
+    padding: 2px;
+    font-size: 16px !important;
+  }
+  
   .nav-item {
     /* margin-top: 15px; */
     margin-left: 5px;
@@ -1078,7 +1106,7 @@
     display: none;
   }
   .gallery-title h3 {
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 25px;
   }
   /* Gallery Area End */
@@ -1109,6 +1137,34 @@
   /* Footer Area End */
 }
 /* Small Area End */
+
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+
+  .message-text {
+    width: 100% !important;
+    color: #000;
+  }
+  
+  .message-text h3 {
+    padding: 2px;
+    font-size: 14px !important;
+    color: #000 !important;
+    margin-top: 8px;
+  }
+  
+  .message-text h6 {
+    font-size: 16px !important;
+    color: #7c7a7a !important;
+    margin: 0;
+    padding-left: 2px;
+  }
+
+  .message-text h4 {
+    margin: 0;
+    padding: 2px;
+    font-size: 16px !important;
+  }
+}
 
 /* Medium Area Start */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1182,7 +1238,7 @@
     display: none;
   }
   .gallery-title h3 {
-    font-size: 40px;
+    font-size: 26px;
     margin-bottom: 25px;
   }
   /* Gallery Area End */
