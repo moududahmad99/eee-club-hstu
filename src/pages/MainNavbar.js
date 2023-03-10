@@ -21,7 +21,7 @@ import About from "./About/About";
 import Admission from "./Academics/Admission";
 import ClassRoutine from "./Academics/ClassRoutine";
 import Courses from "./Academics/Courses";
-import ReaseachArea from "./Research/ReaseachArea";
+import ResearchArea from "./Research/ResearchArea";
 import Publications from "./Research/Publications";
 import Thesis from "./Research/Thesis";
 import Advisors from "./Advisors/Advisors";
@@ -106,7 +106,7 @@ function MainNavbar() {
           <Route path="/admission" element={<Admission />} />
           <Route path="/class-routine" element={<ClassRoutine />} />
           <Route path="/courses" element={<Courses />} />
-          <Route path="/research-area" element={<ReaseachArea />} />
+          <Route path="/research-area" element={<ResearchArea />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/thesis" element={<Thesis />} />
           <Route path="/news" element={<News />} />

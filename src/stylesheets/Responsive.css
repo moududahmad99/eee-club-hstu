@@ -34,6 +34,8 @@
     height: 55px;
     width: auto;
   }
+
+  
 }
 @media (max-width: 575.98px) {
   .top-text > h1 {
@@ -299,6 +301,9 @@
 
 /* Large Area Start */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #collasible-nav-dropdown {
+    margin: 0 4px !important;
+  }
   .about-desc h3 {
     font-size: 17px;
   }
@@ -322,6 +327,10 @@
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  #collasible-nav-dropdown {
+    margin-top: -.2px !important;
+  }
+
   #collasible-nav-dropdown {
     color: rgb(255, 255, 255);
     font-size: 1.04vw;

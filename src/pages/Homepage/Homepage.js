@@ -1,6 +1,7 @@
 import { Button, TextField } from '@mui/material'
 import React from 'react'
 import '../../stylesheets/Homepage/Homepage.css'
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Iframe from 'react-iframe'
 import PhotoSizeSelectActualIcon from '@mui/icons-material/PhotoSizeSelectActual';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -369,20 +370,6 @@ const Homepage = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* <!-- Contact Section Start --> */}
       <div className="container">
         <div className="row">
@@ -491,7 +478,6 @@ const Homepage = () => {
                       </div>
                       <div className="footer-links">
                         <ul>
-                          <li><a href="#">Pricing</a></li>
                           <li><a href="#">Gallery</a></li>
                           <li><a href="#">Feedback</a></li>
                         </ul>
@@ -515,6 +501,7 @@ const Homepage = () => {
           POWERED BY © NOIKOSSHO'16
         </h3>
       </div>
+      <a href="#" className='upArrow'><ArrowUpwardIcon></ArrowUpwardIcon></a>
       {/* <!-- Min-Footer Section End --> */}
 
 

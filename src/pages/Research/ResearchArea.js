@@ -3,6 +3,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Button } from '@mui/material'
 
+
 const ClassRoutine = () => {
     return (
         <div>
@@ -23,25 +24,36 @@ const ClassRoutine = () => {
                     <div className="research-title">
                         <h3>Research Area</h3>
                     </div>
-                    <div className="research-main">
-                        <div className="research-card">
-                            <img src="images/research-1.jpg" alt="research" />
-                            <h3>Power Electronics</h3>
-                        </div>
+                    <div className='row'>
+                        <div className="research-main justify-content-center d-flex">
+                            <div className='col-lg-4 col-md-6 col-sm-12'>
+                                <div className="research-card">
+                                    <img src="images/research-1.jpg" alt="research" />
+                                    <h3>Power Electronics</h3>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 col-md-6 col-sm-12'>
 
-                        <div className="research-card">
-                            <img src="images/research-2.jpg" alt="research" />
-                            <h3>Non-Electrical Device</h3>
-                        </div>
+                                <div className="research-card">
+                                    <img src="images/research-2.jpg" alt="research" />
+                                    <h3>Non-Electrical Device</h3>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 col-md-6 col-sm-12'>
 
-                        <div className="research-card">
-                            <img src="images/research-3.jpg" alt="research" />
-                            <h3>VSCI System</h3>
-                        </div>
+                                <div className="research-card">
+                                    <img src="images/research-3.jpg" alt="research" />
+                                    <h3>VSCI System</h3>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 col-md-6 col-sm-12'>
 
-                        <div className="research-card">
-                            <img src="images/research-4.jpg" alt="research" />
-                            <h3>Optoelectronics</h3>
+                                <div className="research-card">
+                                    <img src="images/research-4.jpg" alt="research" />
+                                    <h3>Optoelectronics</h3>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div className="research-button">
