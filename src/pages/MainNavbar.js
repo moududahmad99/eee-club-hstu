@@ -18,6 +18,12 @@ import {
 import ErrorPage from "./ErrorPage";
 import Homepage from "./Homepage/Homepage";
 import About from "./About/About";
+import Admission from "./Academics/Admission";
+import ClassRoutine from "./Academics/ClassRoutine";
+import Courses from "./Academics/Courses";
+import ReaseachArea from "./Research/ReaseachArea";
+import Publications from "./Research/Publications";
+import Thesis from "./Research/Thesis";
 import Advisors from "./Advisors/Advisors";
 import News from "./News/News";
 import Library from "./Library/Library";
@@ -33,7 +39,7 @@ function MainNavbar() {
     <>
       <Router>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Container>
+          <Container className="justify-content-center">
             {/* <Navbar.Brand ><Link to="/">EEE-LOGO </Link></Navbar.Brand> */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -44,14 +50,14 @@ function MainNavbar() {
 
                 <NavDropdown title="ACADEMICS" id="collasible-nav-dropdown" style={{ color: 'white' }}>
                   <Link className="academics_dropdown" to="/admission">ADMISSION </Link>
-                  <Link className="academics_dropdown" to="/">CLASS ROUTINE </Link>
-                  <Link className="academics_dropdown" to="/">COURSES </Link>
+                  <Link className="academics_dropdown" to="/class-routine">CLASS ROUTINE </Link>
+                  <Link className="academics_dropdown" to="/courses">COURSES </Link>
                 </NavDropdown>
 
                 <NavDropdown title="RESEARCH" id="collasible-nav-dropdown" style={{ color: 'white' }}>
-                  <Link className="academics_dropdown" to="/">Reseach Area </Link>
-                  <Link className="academics_dropdown" to="/">Publications </Link>
-                  <Link className="academics_dropdown" to="/">Thesis</Link>
+                  <Link className="academics_dropdown" to="/research-area">Reseach Area </Link>
+                  <Link className="academics_dropdown" to="/publications">Publications </Link>
+                  <Link className="academics_dropdown" to="/thesis">Thesis</Link>
                 </NavDropdown>
 
                 <Nav.Link> <Link className="navItems" to="/news">News </Link></Nav.Link>
@@ -97,6 +103,12 @@ function MainNavbar() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/advisors" element={<Advisors />} />
+          <Route path="/admission" element={<Admission />} />
+          <Route path="/class-routine" element={<ClassRoutine />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/research-area" element={<ReaseachArea />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/thesis" element={<Thesis />} />
           <Route path="/news" element={<News />} />
           <Route path="/library" element={<Library />} />
           <Route path="/Students" element={<Students />} />

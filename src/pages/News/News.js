@@ -12,7 +12,7 @@ const News = () => {
       <div class="about about-after position-relative">
         <div class="container">
           <div class="row about-text text-center text-white">
-            <h3>News and Events Of EEE Club</h3>
+            <h3 className='text-uppercase'>News and Events Of EEE Club</h3>
           </div>
         </div>
       </div>

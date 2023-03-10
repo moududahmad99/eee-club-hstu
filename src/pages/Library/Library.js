@@ -14,7 +14,7 @@ const Library = () => {
       <div class="about about-after position-relative">
         <div class="container">
           <div class="row about-text text-center text-white">
-            <h3>Library section Of EEE Club</h3>
+            <h3 className='text-uppercase'>Library section Of EEE Club</h3>
 
           </div>
         </div>

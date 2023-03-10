@@ -5,6 +5,8 @@ import Iframe from 'react-iframe'
 import PhotoSizeSelectActualIcon from '@mui/icons-material/PhotoSizeSelectActual';
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import '../../stylesheets/Responsive.css';
+
 
 const Homepage = () => {
   return (
@@ -81,16 +83,12 @@ const Homepage = () => {
 
 
 
-
-
-
-
       <div className="news">
         <div className="container d-flex">
-          <div className="row new-main">
-            <div className="newsNevent-main col-lg-11 my-5">
+          <div className="row">
+            <div className="newsNevent-main col-lg-8 col-md-6 col-12 my-5">
               <div className="news-title">
-                <h3>News </h3>
+                <h3>News</h3>
               </div>
               <div className="newsNevent-cards">
                 <div className="news-card">
@@ -118,107 +116,51 @@ const Homepage = () => {
                 <Button variant="contained">View More</Button>
               </div>
             </div>
-          </div>
 
-
-
-          <div className='notice col-lg-5'>
-
-            <div className="notice-title mt-5">
-              <h3>Notice Board</h3>
-            </div>
-            <div className="notice-main">
-              <div className="notice-card1">
-                <div className="card-1">
-                  <div className="calendar-part">
-                    <h3>04</h3>
-                    <h4>July</h4>
-                    <h5>2022</h5>
-                  </div>
-                  <div className="text-part">
-                    <a href="#">
-                      <h2>PhD Admission Result</h2>
-                    </a>
+            <div className='notice justify-content-center col-lg-4 col-md-6 col-12'>
+              <div className="notice-title mt-5">
+                <h3>Notice Board</h3>
+              </div>
+              <div className="notice-main">
+                <div className="notice-card1">
+                  <div className="card-1">
+                    <div className="calendar-part">
+                      <h3>04</h3>
+                      <h4>July</h4>
+                      <h5>2022</h5>
+                    </div>
+                    <div className="text-part">
+                      <a href="#">
+                        <h2>PhD Admission Result</h2>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="notice-card1">
-                <div className="card-1">
-                  <div className="calendar-part">
-                    <h3>34</h3>
-                    <h4>Aug</h4>
-                    <h5>2022</h5>
-                  </div>
-                  <div className="text-part">
-                    <a href="#">
-                      <h2>PhD Viva Notice</h2>
-                    </a>
+                <div className="notice-card1">
+                  <div className="card-1">
+                    <div className="calendar-part">
+                      <h3>34</h3>
+                      <h4>Aug</h4>
+                      <h5>2022</h5>
+                    </div>
+                    <div className="text-part">
+                      <a href="#">
+                        <h2>PhD Viva Notice</h2>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="notice-button2">
-                {/* <a href="#" type="button" className="btn btn-primary">view more
+                <div className="notice-button2">
+                  {/* <a href="#" type="button" className="btn btn-primary">view more
                   <i className="fa-solid fa-arrow-right"></i>
                 </a> */}
-                <Button variant="contained">View More</Button>
-
+                  <Button variant="contained">View More</Button>
+                </div>
               </div>
             </div>
           </div>
-          {/* --------------         nicher part pore lagbeeeeeeeeeeeeeeeeeeee  ------------------------------- */}
-
-          {/* <div class="events-title text-center my-5">
-            <h3>Events</h3>
-          </div>
-
-          <div class="row justify-content-evenly mt-4 events">
-            <div class="events-card col-lg-5 my-5">
-              <img class="card-img-top" src="/images/gallery-2.jpg" alt="Card image" />
-              <div class="events-body">
-                <p class="card-text">Heading...</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, nemo.</p>
-                <a href="#">...Read More <i class="fa-solid fa-arrow-right"></i></a>
-
-              </div>
-            </div>
-            <div class="events-card col-lg-5 my-5">
-              <img class="card-img-top" src="images/gallery-2.jpg" alt="Card image" />
-              <div class="events-body">
-                <p class="card-text">Heading...</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, nemo.</p>
-                <a href="#">...Read More <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row justify-content-evenly mt-4 events">
-            <div class="events-card col-lg-5">
-              <img class="card-img-top" src="images/gallery-4.jpg" alt="Card image" />
-              <div class="events-body">
-                <p class="card-text">Heading...</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, nemo.</p>
-                <a href="#">...Read More <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-
-            <div class="events-card col-lg-5">
-              <img class="card-img-top" src="images/gallery-1.jpg" alt="Card image" />
-              <div class="events-body">
-                <p class="card-text">Heading...</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, nemo.</p>
-                <a href="#">...Read More <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div> */}
-
         </div>
       </div>
-      {/* --------------         uporer part pore lagbeeeeeeeeeeeeeeeeeeee  ------------------------------- */}
-
-
-
-
-
 
 
 

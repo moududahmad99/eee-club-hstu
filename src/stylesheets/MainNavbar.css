@@ -33,6 +33,12 @@ a {
   text-decoration: none;
 }
 
+#collasible-nav-dropdown {
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+  margin-top: 0.2px;
+}
+
 .navItems:hover {
   color: rgba(255, 228, 196, 0.74);
 }
@@ -45,51 +51,45 @@ a {
   -o-transition: 0.5s;
 }
 
-.navItems:hover::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 100%;
-  margin-left: -14%;
-  background: #797272;
-  left: 15px;
-  bottom: -10px;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
 
 #collasible-nav-dropdown {
   color: rgb(255, 255, 255);
 }
 
 .academics_dropdown {
-  letter-spacing: 2px;
-  padding: 0 5px;
-  padding: 10px 35px;
+  /* letter-spacing: 2px; */
+  /* padding: 0 5px; */
+  /* padding: 10px 25px; */
   color: rgb(9, 11, 12);
+  text-decoration: none;
   text-transform: uppercase;
   font-family: "Montserrat";
   position: relative;
-  padding: 0 0.9vw;
-  font-size: 1vw;
+  padding: 1vw .7vw ;
+  font-size: .9vw;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  color: #ffffff !important;
+  display: block;
+
 }
 
 .academics_dropdown > title {
   font-size: 20px;
-
   /* position: absolute;
       background-color: #27292b;
       width: 30px;
       padding-top: 20px;
       z-index: 1; */
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  background: #212529 !important;
+  color: #ffffff !important;
+  padding: 0;
 }
 
 #collasible-nav-dropdown:hover .academics_dropdown {
@@ -101,7 +101,7 @@ a {
   position: absolute;
   background-color: #27292b;
   width: 300px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   z-index: 1;
 }
 
@@ -113,10 +113,9 @@ a {
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   position: absolute;
-  background: #353535;
   color: #ffffff !important;
-  padding: 1vw 1.5vw;
-  margin-top: 10px;
+  padding: 0;
+  margin-top: 7px;
 }
 
 

@@ -14,7 +14,7 @@ const Students = () => {
       <div class="about about-after position-relative">
         <div class="container">
           <div class="row about-text text-center text-white">
-            <h3>Students section Of EEE Club</h3>
+            <h3 className='text-uppercase'>Students section Of EEE Club</h3>
           </div>
         </div>
       </div>

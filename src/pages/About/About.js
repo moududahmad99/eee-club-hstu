@@ -13,7 +13,7 @@ const About = () => {
       <div className="about">
         <div className="container">
           <div className="row about-text about-after">
-            <h3>About EEE Club of HSTU</h3>
+            <h3 className='text-uppercase'>About EEE Club of HSTU</h3>
           </div>
         </div>
       </div>
